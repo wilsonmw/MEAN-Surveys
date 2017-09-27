@@ -1,0 +1,31 @@
+#links{
+    margin-left: 60%;
+}
+a{
+    margin: 3%;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 50%;
+    margin: 2%;
+}
+tr, th, td{
+    border: 1px solid black;
+    height: 25px;
+    text-align: center;
+}
+th{
+    background-color: gray;
+}
+#deleteButton{
+    border: none;
+    background-color: white;
+    color: blue;
+    font-size: 1em;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+#search{
+    margin-left: 38%;
+}

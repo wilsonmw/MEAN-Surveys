@@ -1,0 +1,16 @@
+#cancelButton{
+    margin-left: 50%;
+}
+.errorMessages{
+    color: red;
+}
+#question{
+    width: 35%;
+}
+#createButton{
+    margin-top: 15px;
+    margin-left: 47%;
+    height: 25px;
+    box-shadow: 3px 3px 2px black;
+    border-radius: 0px;
+}

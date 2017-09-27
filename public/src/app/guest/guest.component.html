@@ -1,0 +1,5 @@
+<form id ="userForm" #userFormData="ngForm" (submit)="login()">
+  <span class="errorMessages" *ngIf="username.invalid && username.touched">Your name is required and must be at least 2 characters.</span><br>
+  Your Name: <input type="text" name="username" [(ngModel)]="user.username" #username="ngModel" required minlength="2"><br>
+  <input id="submitButton" type="submit" value="Login" [disabled]="userFormData.invalid">
+</form>

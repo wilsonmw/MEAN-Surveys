@@ -1,0 +1,12 @@
+#userForm{
+    margin-left: 10%;
+    padding: 3%;
+    width: 30%;
+}
+#submitButton{
+    margin-top: 3%;
+    margin-left: 50%;
+}
+.errorMessages{
+    color: red;
+}
